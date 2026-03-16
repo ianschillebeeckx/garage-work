@@ -4,11 +4,14 @@ Service Rating: 120/240 Volt, 3 Wire
 
 ---
 
-**Owner:** [NAME]
-**Address:** [ADDRESS]
-**Total Floor Area:** 1,700 sq ft
-**Date:** _______________
-**Permit No.:** _______________
+| | |
+|---|---|
+| **Owner** | [NAME] |
+| **Address** | [STREET] |
+| | [CITY, STATE ZIP] |
+| **Total Floor Area** | 1,700 sq ft |
+| **Date** | _______________ |
+| **Permit No.** | _______________ |
 
 ---
 
@@ -27,7 +30,7 @@ Service Rating: 120/240 Volt, 3 Wire
 
 ## PROPOSED WORK
 
-New 60A subpanel in attached garage, fed from main panel. New circuits: 240V/50A EV charger (NEMA 14-50), 240V/30A dryer, 120V/20A washer, 120V/20A general receptacles (relocated existing), 120V/20A workshop power tools, 120V/20A workshop dust collection.
+New 80A subpanel feeder to attached garage (100A bus subpanel), fed from main panel. New circuits: 240V/50A EV charger (NEMA 14-50), 240V/30A dryer, 120V/20A washer, 120V/20A general receptacles (relocated existing), 120V/20A workshop power tools, 120V/20A workshop dust collection.
 
 ---
 
@@ -139,7 +142,7 @@ New 60A subpanel in attached garage, fed from main panel. New circuits: 240V/50A
 | 17 | 60A 2P — PW3/Solar (backfeed) | | 18 | — (empty) |
 | 19 | (continued) | | 20 | — (empty) |
 
-**New:** 60A 2-pole — Garage subpanel feeder (to be installed in open slot)
+**New:** 80A 2-pole — Garage subpanel feeder (to be installed in open slot)
 
 ## NEW GARAGE SUBPANEL SCHEDULE
 

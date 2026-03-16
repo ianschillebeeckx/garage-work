@@ -84,14 +84,15 @@ This means the EV charger will rarely draw its full 40A continuous alongside oth
 **Worst case simultaneous (no load management):** 86-91A
 **Realistic with Emporia load management:** EV throttles down when dryer/other loads are active. Typical simultaneous draw: 40-50A.
 
-### Recommendation: 60A feeder, 100A bus subpanel
+### Recommendation: 80A feeder, 100A bus subpanel
 
-- **60A 2-pole feeder breaker** in the main panel — fits the available capacity and keeps total load well within 175A main
-- **100A bus subpanel** — gives room for all planned breakers and future flexibility inside the garage, even though the feed is limited to 60A
-- The Emporia charger + monitoring makes 60A viable because the EV will only charge hard when other loads are low
-- A 100A bus with a 60A feed is standard practice and code-compliant (the feeder breaker is the overcurrent protection)
+- **80A 2-pole feeder breaker** in the main panel — fits the available capacity and keeps total load well within 175A main
+- **100A bus subpanel** — gives room for all planned breakers and future flexibility inside the garage, even though the feed is limited to 80A
+- A 100A bus with an 80A feed is standard practice and code-compliant (the feeder breaker is the overcurrent protection)
 
-**Wire sizing for 60A feeder:** 6 AWG copper or 4 AWG aluminum (NEC 310.16), depending on distance from main panel to subpanel. **TODO: measure run length — if over ~50ft, may need to upsize for voltage drop.**
+**Why 80A over 60A:** The garage worst-case simultaneous load (EV charger 40A + dryer 24A = 64A) exceeds a 60A feeder, so 80A provides headroom without relying solely on Emporia load management. The Emporia system still provides additional safety margin and optimizes real-world usage, but the feeder is sized to handle the two largest loads simultaneously even without load management.
+
+**Wire sizing for 80A feeder:** 4 AWG copper (NEC 310.16, 75°C column, rated 85A). **TODO: measure run length — if over ~50ft, may need to upsize for voltage drop.**
 
 ## Open Questions
 

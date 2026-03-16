@@ -94,7 +94,7 @@ San Francisco, CA — permits through SF Department of Building Inspection (SFDB
 - [ ] Dryer: gas or electric? (affects whether dryer needs 240V or just 120V + gas line)
 - [ ] Do you need to keep the garage sink, or is it being removed?
 - [ ] Why was main panel downgraded from 200A to 175A during PV+battery install? (affects subpanel sizing)
-- [ ] Can available capacity support a 60A subpanel feed given PV+battery+existing loads?
+- [ ] Can available capacity support an 80A subpanel feed given PV+battery+existing loads?
 - [ ] Explore "electrician as supervisor" model — will SF DBI allow homeowner to do work under informal supervision, or does the permit need to be under a licensed contractor?
 - [ ] Existing wall tile on the other half — are you keeping it, or will that wall eventually get renovated too?
 

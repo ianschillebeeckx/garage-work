@@ -2,7 +2,7 @@
 
 ## Scope of Work
 
-- New subpanel (flush-mount between studs; size TBD — likely 60A or 100A depending on loads)
+- New subpanel (flush-mount between studs; 100A bus, 80A feeder from main panel)
 - 240V/50A circuit for EV charger (NEMA 14-50) — **PRIORITY**
 - 240V/30A circuit for electric dryer (NEMA 14-30) — confirm gas vs electric
 - 120V/20A circuit for washer

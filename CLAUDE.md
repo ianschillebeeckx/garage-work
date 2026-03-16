@@ -6,12 +6,6 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 This repo is a project management workspace for a garage renovation. It tracks tasks, dependencies, permitting, and progress for home improvement work on one wall of a residential garage.
 
-## Structure
-
-- `plan.md` — Master project plan with phases, dependencies, and current status
-- `permits/` — Permit tracking, requirements, and checklists per trade
-- `notes/` — Research, vendor quotes, material lists, and decisions
-
 ## Key Constraints
 
 - Owner-occupied, owner-performed work (homeowner in SF single-family dwelling)
@@ -35,6 +29,8 @@ This applies to permitting requirements, code interpretations, material choices,
 - `permits/` — Permit tracking, requirements, and checklists per trade
 - `decisions/` — Sourced findings and decision records with citations
 - `notes/` — Research, vendor quotes, material lists
+- `photos/` — Nameplate photos, panel photos, site photos
+- `private/` — **Gitignored.** Filled-in documents with personal info (address, etc.) for printing/submission. Never committed.
 
 ## How to Help
 
