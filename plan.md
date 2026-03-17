@@ -15,40 +15,40 @@ Phase 1: Permits & Planning
   ├── Gray water permit (bath + washer diversion)
   └── Building permit (seismic plywood — check if required locally)
 
-Phase 2: Rough-In (all behind-wall work, before drywall)
-  ├── 2A. Seismic plywood on target wall
-  │     └── No dependency on permits in most jurisdictions, but confirm
-  ├── 2B. Electrical rough-in [REQUIRES: electrical permit pulled]
+Phase 2: Rough-In (all work inside wall cavities — must be done before plywood covers studs)
+  ├── 2A. Electrical rough-in [REQUIRES: electrical permit pulled]
   │     ├── Install new subpanel (flush-mount between studs on target wall)
-  │     │     Feed from main panel (175A, downgraded from 200A — investigate)
+  │     │     Feed from main panel (175A main, 80A feeder, 4 AWG copper)
   │     ├── Run 240V/50A circuit — EV charger (NEMA 14-50)
   │     ├── Run 240V circuit — dryer
   │     ├── Run 120V circuit — washer
-  │     └── Run 120V circuits — general outlets
-  ├── 2C. Plumbing rough-in [REQUIRES: plumbing permit pulled]
+  │     └── Run 120V circuits — workshop power tools, dust collection, general
+  ├── 2B. Plumbing rough-in [REQUIRES: plumbing permit pulled]
   │     ├── Reroute washer supply lines (currently external to wall)
   │     ├── Install washer box (recessed outlet box with valves + drain)
   │     └── Remove/cap old garage sink connections if no longer needed
-  └── 2D. Gray water rough-in [REQUIRES: gray water permit pulled]
+  └── 2C. Gray water rough-in [REQUIRES: gray water permit pulled]
         ├── Tap into bath drain (accessible from garage ceiling/wall)
         ├── Tap into washer drain
         └── Route gray water lines to collection/irrigation
+  Note: 2A, 2B, 2C are independent — can be done in parallel or any order.
 
-Phase 3: Insulation
-  ├── Finish ceiling insulation (currently ~90% done)
-  └── Insulate target wall if not already done
-      └── Must happen AFTER all rough-in is complete and inspected
-
-Phase 4: Inspections
+Phase 3: Inspections (before anything covers the stud bays)
   ├── Electrical rough-in inspection
   ├── Plumbing rough-in inspection
   ├── Gray water inspection
-  └── Insulation inspection (if required locally)
+  └── All must PASS before Phase 4
+
+Phase 4: Insulation + Seismic Plywood
+  ├── Insulate target wall (after inspections pass)
+  ├── Finish ceiling insulation (currently ~90% done)
+  └── Seismic plywood on target wall (interior face of studs)
+      └── Covers all rough-in — goes on AFTER inspections, BEFORE drywall
 
 Phase 5: Close Walls
   ├── Drywall ceiling
-  └── Drywall target wall
-      └── BLOCKED until all Phase 4 inspections pass
+  └── Drywall over seismic plywood on target wall
+      └── BLOCKED until Phase 4 complete
 ```
 
 ---
@@ -57,18 +57,18 @@ Phase 5: Close Walls
 
 | # | Task | Status | Permit Needed | Notes |
 |---|------|--------|---------------|-------|
-| 1 | Seismic plywood | Not started | Check locally | One wall only |
-| 2 | New subpanel | Not started | Electrical | Flush-mount between studs; feed from 175A main (was 200A — why?) |
-| 3a | 240V/50A — EV charger | Not started | Electrical | NEMA 14-50; depends on subpanel; **PRIORITY** |
-| 3b | 240V — dryer | Not started | Electrical | Depends on subpanel |
-| 3c | 120V — washer | Not started | Electrical | Depends on subpanel |
-| 3d | 120V — general outlets | Not started | Electrical | Depends on subpanel |
-| 4 | Washer plumbing reroute | Not started | Plumbing | Move from external/sink to in-wall washer box |
-| 5a | Gray water — bath | Not started | Gray water | Accessible from garage ceiling |
-| 5b | Gray water — washer | Not started | Gray water | |
-| 6 | Ceiling insulation | 90% complete | Probably not | Finish remaining 10% |
-| 7a | Drywall — ceiling | Not started | No | After all inspections |
-| 7b | Drywall — walls | Not started | No | After all inspections; half currently done with tile |
+| 1 | New subpanel (80A feeder, 100A bus) | Not started | Electrical | Flush-mount between studs; HOM280 breaker, 4 AWG copper; **PRIORITY** |
+| 2a | 240V/50A — EV charger | Not started | Electrical | NEMA 14-50; depends on subpanel; **PRIORITY** |
+| 2b | 240V — dryer | Not started | Electrical | Depends on subpanel |
+| 2c | 120V — washer | Not started | Electrical | Depends on subpanel |
+| 2d | 120V — workshop + general outlets | Not started | Electrical | 3 circuits: power tools, dust collection, general+garage door |
+| 3 | Washer plumbing reroute | Not started | Plumbing | Move from external/sink to in-wall washer box |
+| 4a | Gray water — bath | Not started | Gray water | Accessible from garage ceiling |
+| 4b | Gray water — washer | Not started | Gray water | |
+| 5 | Ceiling insulation | 90% complete | Probably not | Finish remaining 10% |
+| 6 | Seismic plywood | Not started | Check locally | Interior face of studs; AFTER all rough-in inspections pass, BEFORE drywall |
+| 7a | Drywall — ceiling | Not started | No | After plywood |
+| 7b | Drywall — walls | Not started | No | Over seismic plywood; half currently done with tile |
 
 ---
 
