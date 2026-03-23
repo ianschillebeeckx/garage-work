@@ -30,7 +30,7 @@ Service Rating: 120/240 Volt, 3 Wire
 
 ## PROPOSED WORK
 
-New 80A subpanel feeder to attached garage (100A bus subpanel), fed from main panel. New circuits: 240V/50A EV charger (NEMA 14-50), 240V/30A dryer, 120V/20A washer, 120V/20A general receptacles (relocated existing), 120V/20A workshop power tools, 120V/20A workshop dust collection.
+New 100A subpanel feeder to attached garage (100A bus subpanel), fed from main panel. Relocate existing 50A HVAC condenser circuit from main panel to garage subpanel. New circuits: 240V/50A EV charger (NEMA 14-50), 240V/30A dryer, 120V/20A washer, 120V/20A general receptacles (relocated existing), 120V/20A workshop power tools, 120V/20A workshop dust collection.
 
 ---
 
@@ -137,17 +137,18 @@ New 80A subpanel feeder to attached garage (100A bus subpanel), fed from main pa
 | 7 | — (empty) | | 8 | — (empty) |
 | 9 | — (empty) | | 10 | — (empty) |
 | 11 | — (empty) | | 12 | — (empty) |
-| 13 | 50A 2P — HVAC | | 14 | — (empty) |
-| 15 | (continued) | | 16 | — (empty) |
+| 13 | ~~50A 2P — HVAC~~ (removed — relocated to garage subpanel) | | 14 | — (empty) |
+| 15 | — (empty) | | 16 | — (empty) |
 | 17 | 60A 2P — PW3/Solar (backfeed) | | 18 | — (empty) |
 | 19 | (continued) | | 20 | — (empty) |
 
-**New:** 80A 2-pole — Garage subpanel feeder (to be installed in open slot)
+**New:** 100A 2-pole — Garage subpanel feeder (to be installed in open slot)
 
 ## NEW GARAGE SUBPANEL SCHEDULE
 
 | Breaker | Circuit |
 |---------|---------|
+| 50A 2-pole | HVAC condenser (relocated from main panel) |
 | 50A 2-pole | EV charger — NEMA 14-50 receptacle |
 | 30A 2-pole | Electric dryer receptacle |
 | 20A 1-pole | Washer receptacle |

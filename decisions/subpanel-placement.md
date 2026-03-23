@@ -38,7 +38,7 @@
 
 New garage subpanel between gas meter and existing house subpanel on north (target) wall, inside the garage. Possibly 1 stud bay away from gas meter.
 
-**Feeder run:** Main panel (exterior NE corner) → through wall → new subpanel (interior). Estimated ~6-10 feet. At this distance, voltage drop is negligible for 80A on 4 AWG copper.
+**Feeder run:** Main panel (exterior NE corner) → through wall → new subpanel (interior). Estimated ~6-10 feet. At this distance, voltage drop is negligible for 100A on 1 AWG copper.
 
 ## EV Charger Placement
 
@@ -70,21 +70,21 @@ Near garage door (north side) so charging cable can reach a car parked inside OR
 - **Type:** Homeline "All-In-One" Combination Service Entrance
 - **Spaces:** 20 spaces / 40 circuits
 - **Open slots:** ~14 after relocating garage circuit
-- **Feeder breaker needed:** **Square D HOM280** (Homeline 80A 2-pole)
+- **Feeder breaker needed:** **Square D HOM2100** (Homeline 100A 2-pole)
   - Confirmed Homeline series (SO prefix = Homeline All-In-One)
   - Do NOT use QO breakers in this panel
 
 ## Wire Sizing
 
-For 80A feeder at ~8-10 ft run (through wall from exterior main to interior subpanel):
-- **4 AWG copper** — rated 85A (NEC 310.16, 75°C column). Sufficient.
-- **2 AWG aluminum** — alternative, cheaper for longer runs but unnecessary at this distance
+For 100A feeder at ~8-10 ft run (through wall from exterior main to interior subpanel):
+- **1 AWG copper** — rated 130A (NEC 310.16, 75°C column). Sufficient.
+- **2/0 aluminum** — alternative, cheaper for longer runs but unnecessary at this distance
 - Need 4 conductors: 2 hots + 1 neutral + 1 ground (subpanel requires separate neutral and ground bars)
 - At this short distance, voltage drop is negligible (<0.5%)
 
 ## Open Questions
 
-- [x] ~~Confirm Square D series~~ — Homeline (SO2040M200S). Feeder breaker: HOM280.
+- [x] ~~Confirm Square D series~~ — Homeline (SO2040M200S). Feeder breaker: HOM2100.
 - [ ] EV charger exact location — how far from subpanel? (affects circuit wire length)
 - [x] ~~Gas meter clearance~~ — 8ft away, well exceeds all PG&E/code minimums
 - [x] ~~Main panel brand~~ — Square D

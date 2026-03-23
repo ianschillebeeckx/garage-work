@@ -146,4 +146,4 @@ Slot   Left                    Right
 | Bus | 200A |
 | Open slots | ~14 (plenty) |
 | Breaker type needed | **Homeline (HOM)** — the SO series is Homeline, not QO |
-| Feeder breaker | **HOM280** (Homeline 80A 2-pole) |
+| Feeder breaker | **HOM2100** (Homeline 100A 2-pole) |

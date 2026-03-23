@@ -18,7 +18,7 @@ Phase 1: Permits & Planning
 Phase 2: Rough-In (all work inside wall cavities — must be done before plywood covers studs)
   ├── 2A. Electrical rough-in [REQUIRES: electrical permit pulled]
   │     ├── Install new subpanel (flush-mount between studs on target wall)
-  │     │     Feed from main panel (175A main, 80A feeder, 4 AWG copper)
+  │     │     Feed from main panel (175A main, 100A feeder, 1 AWG copper)
   │     ├── Run 240V/50A circuit — EV charger (NEMA 14-50)
   │     ├── Run 240V circuit — dryer
   │     ├── Run 120V circuit — washer
@@ -57,7 +57,7 @@ Phase 5: Close Walls
 
 | # | Task | Status | Permit Needed | Notes |
 |---|------|--------|---------------|-------|
-| 1 | New subpanel (80A feeder, 100A bus) | Not started | Electrical | Flush-mount between studs; HOM280 breaker, 4 AWG copper; **PRIORITY** |
+| 1 | New subpanel (100A feeder, 100A bus) | Not started | Electrical | Flush-mount between studs; HOM2100 breaker, 1 AWG copper; **PRIORITY** |
 | 2a | 240V/50A — EV charger | Not started | Electrical | NEMA 14-50; depends on subpanel; **PRIORITY** |
 | 2b | 240V — dryer | Not started | Electrical | Depends on subpanel |
 | 2c | 120V — washer | Not started | Electrical | Depends on subpanel |
@@ -94,7 +94,7 @@ San Francisco, CA — permits through SF Department of Building Inspection (SFDB
 - [ ] Dryer: gas or electric? (affects whether dryer needs 240V or just 120V + gas line)
 - [ ] Do you need to keep the garage sink, or is it being removed?
 - [ ] Why was main panel downgraded from 200A to 175A during PV+battery install? (affects subpanel sizing)
-- [ ] Can available capacity support an 80A subpanel feed given PV+battery+existing loads?
+- [ ] Can available capacity support a 100A subpanel feed given PV+battery+existing loads?
 - [ ] Explore "electrician as supervisor" model — will SF DBI allow homeowner to do work under informal supervision, or does the permit need to be under a licensed contractor?
 - [ ] Existing wall tile on the other half — are you keeping it, or will that wall eventually get renovated too?
 
