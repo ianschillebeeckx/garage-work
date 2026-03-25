@@ -89,13 +89,13 @@ San Francisco, CA — permits through SF Department of Building Inspection (SFDB
 
 ## Open Questions
 
-- [ ] Does seismic plywood require a building permit in your jurisdiction?
-- [ ] Gray water: what's the intended destination? (irrigation, holding tank, etc.)
-- [ ] Dryer: gas or electric? (affects whether dryer needs 240V or just 120V + gas line)
+- [x] ~~Does seismic plywood require a building permit?~~ — YES, but OTC eligible at DBI. See `decisions/permits-needed-summary.md`
+- [x] ~~Gray water: what's the intended destination?~~ — Subsurface landscape irrigation
+- [x] ~~Why was main panel downgraded from 200A to 175A?~~ — NEC 120% rule for solar backfeed (175+60=235 ≤ 240). See `decisions/main-panel-capacity.md`
+- [x] ~~Can available capacity support subpanel feed?~~ — Yes, 163A calculated on 175A service. See `permits/electrical-load-calc.md`
+- [x] ~~Electrician as supervisor model?~~ — Homeowner pulls permit, does work, friend advises informally. See `decisions/electrical-homeowner-diy-legal.md`
+- [ ] Dryer: gas or electric? (currently gas, planning electric — calc includes future electric)
 - [ ] Do you need to keep the garage sink, or is it being removed?
-- [ ] Why was main panel downgraded from 200A to 175A during PV+battery install? (affects subpanel sizing)
-- [ ] Can available capacity support a 100A subpanel feed given PV+battery+existing loads?
-- [ ] Explore "electrician as supervisor" model — will SF DBI allow homeowner to do work under informal supervision, or does the permit need to be under a licensed contractor?
 - [ ] Existing wall tile on the other half — are you keeping it, or will that wall eventually get renovated too?
 
 ---
