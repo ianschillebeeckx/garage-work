@@ -76,10 +76,10 @@ Phase 5: Close Walls
 
 | Permit | Status | Applied | Approved | Inspection Scheduled | Inspection Passed |
 |--------|--------|---------|----------|---------------------|-------------------|
-| Electrical | Not applied | — | — | — | — |
+| Electrical | **APPROVED** | 2026-03-25 | 2026-03-25 | — | — |
 | Plumbing | Not applied | — | — | — | — |
 | Gray water | Not applied | — | — | — | — |
-| Building (seismic) | TBD if needed | — | — | — | — |
+| Building (seismic) | Needs plan | 2026-03-25 (asked) | — | — | — |
 
 ---
 
