@@ -4,9 +4,11 @@
 
 - Reroute washer supply (hot + cold) from external/surface-mounted to in-wall
 - Install recessed washer outlet box with shutoff valves
-- Install washer drain standpipe (2" typically)
+- Install washer drain standpipe (2" typically) — connect to existing drain/waste line (currently serves garage sink)
+- Washer gray water diversion (3-way valve, subsurface irrigation)
 - Bath gray water diversion (3-way valve, subsurface irrigation)
-- Remove or cap existing garage sink connections (if applicable)
+- Reroute garage sink plumbing from exterior/surface-mounted to interior of wall
+- Install exterior hot water hose bib (new spigot to outside)
 
 ## Do I Need a Permit?
 
@@ -36,7 +38,7 @@ The washer laundry-to-landscape gray water system does NOT need a permit (see `d
 
 ### Scope Description (for application)
 
-> Reroute washing machine supply lines (hot and cold) from exterior surface-mounted to in-wall. Install recessed washer outlet box with shutoff valves and 2" drain standpipe with P-trap. Install bath/shower gray water diversion with 3-way valve and subsurface landscape irrigation. Remove/cap existing garage sink connections.
+> Reroute washing machine supply lines (hot and cold) from exterior surface-mounted to in-wall. Install recessed washer outlet box with shutoff valves and 2" drain standpipe with P-trap, connected to existing drain/waste line. Reroute garage sink supply and drain from exterior/surface-mounted to interior of wall. Install washer gray water diversion with 3-way valve and subsurface landscape irrigation. Install bath/shower gray water diversion with 3-way valve and subsurface landscape irrigation. Install new exterior hot water hose bib.
 
 ### Key Links
 
