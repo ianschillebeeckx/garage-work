@@ -6,18 +6,33 @@
 |------|------|-----|-------|
 | Siemens SN2448L1125 — 125A main lug, 24-space/48-circuit, plug-on neutral, indoor | SN2448L1125 | 1 | To match existing house subpanel (also Siemens). 125A bus handles the 100A feeder. Main lug is correct — the HOM2100 in the main panel serves as the disconnect. Plug-on neutral makes GFCI breaker install cleaner. |
 
-## Feeder (Main Panel → Subpanel, ~10ft run)
+## Feeder (Main Panel → Subpanel, ~15ft horizontal run through wall)
 
 | Item | Spec | Qty | Notes |
 |------|------|-----|-------|
 | Feeder breaker (main panel) | Square D HOM2100 — Homeline 100A 2-pole | 1 | Goes in main panel to feed the subpanel |
-| 1 AWG copper THHN/THWN — black | Stranded, 1 AWG | ~15 ft | Hot leg 1. Buy extra for termination slack. |
-| 1 AWG copper THHN/THWN — red | Stranded, 1 AWG | ~15 ft | Hot leg 2 |
-| 1 AWG copper THHN/THWN — white | Stranded, 1 AWG | ~15 ft | Neutral |
-| 1 AWG copper THHN/THWN — green (or bare) | Stranded, 1 AWG | ~15 ft | Ground. Can use bare copper or green insulated. |
-| Conduit — 1.5" EMT or PVC | | ~10 ft | For the through-wall run. Size depends on fill calculation — 4× 1 AWG needs at least 1.25" conduit, 1.5" gives working room. |
-| Conduit fittings | Connectors, couplings, straps | As needed | EMT compression fittings or PVC glue fittings |
-| Anti-oxidant compound | Burndy Penetrox or equivalent | 1 tube | For all terminations. Required for aluminum, good practice for copper too. |
+| Anti-oxidant compound | Burndy Penetrox or equivalent | 1 tube | Required for aluminum terminations, good practice for copper too. |
+
+### Option A: Aluminum SER cable (RECOMMENDED)
+
+Matches existing house subpanel feeder (Southwire Alumaflex). No conduit needed — runs through bored stud holes like Romex. Cheaper, lighter, and simpler than copper THHN in conduit.
+
+| Item | Spec | Qty | Notes |
+|------|------|-----|-------|
+| 2/0-2/0-2/0-1 aluminum SER cable | Southwire Alumaflex or equivalent | ~20 ft | 3× 2/0 AWG (2 hots + neutral) + 1× 1 AWG ground. 100A rated. Buy by the foot at Home Depot — search "2/0 SER aluminum" or ask at wire cutting counter for "two-ought SER." OD ~1.2-1.3", fits through 2.2" max bore in 2×6 studs. |
+
+### Option B: Copper THHN in conduit (alternative)
+
+More expensive, requires conduit, but avoids aluminum termination concerns.
+
+| Item | Spec | Qty | Notes |
+|------|------|-----|-------|
+| 1 AWG copper THHN/THWN — black | Stranded, 1 AWG | ~20 ft | Hot leg 1. Buy extra for termination slack. |
+| 1 AWG copper THHN/THWN — red | Stranded, 1 AWG | ~20 ft | Hot leg 2. If red unavailable, use black + red tape at ends. |
+| 1 AWG copper THHN/THWN — white | Stranded, 1 AWG | ~20 ft | Neutral. If unavailable, use black + white tape at ends. |
+| 1 AWG copper THHN/THWN — green (or bare) | Stranded, 1 AWG | ~20 ft | Ground. |
+| Conduit — 1.5" EMT or flexible LFNC | | ~15 ft | Threading rigid conduit through stud bores is difficult. Flexible LFNC (liquidtight) is easier but 1.25-1.5" is tight in 2.2" bore holes. |
+| Conduit fittings | Connectors, couplings, straps | As needed | |
 
 ## Subpanel Breakers
 
@@ -98,10 +113,11 @@ All boxes are **new-work nail-on** type — mount to studs during rough-in with 
 
 | Item | Spec | Qty | Notes |
 |------|------|-----|-------|
-| Cable staples / straps | NM-B rated, various sizes | 1 box each | Secure Romex within 12" of boxes and every 4.5 ft |
+| Steel nail plates | 1/16" thick, 1.5"×3" or similar | 1 box (20-50 pcs) | Required where wire passes within 1-1/4" of stud face (NEC 300.4). With plywood + drywall going on, install liberally on any bored hole near the face. Cheap insurance. |
+| Cable staples — NM-B (12/2, 10/3) | Plastic or metal, various sizes | 1 box each | Secure Romex within 12" of boxes and every 4.5 ft per NEC 334.30. |
+| Cable staples — SER feeder | Sized for 2/0 SER cable (~1.2" OD) | 1 pack | If using Option A (SER). Secure within 12" of panel and every 4.5 ft. |
 | Wire nuts / Wago connectors | Assorted sizes | 1 pack | |
-| Cable clamps | For panel knockouts | As needed | NM-B cable clamps for subpanel and boxes |
-| Conduit straps | For feeder conduit | 4-6 | Every 4 ft + within 3 ft of box |
+| Cable clamps | For panel knockouts | As needed | NM-B and SER cable clamps for subpanel and boxes |
 | Electrical tape | Black, red, white | 1 each | |
 | Wire labels / markers | | 1 pack | Label circuits in panel |
 | Torque screwdriver or wrench | Inch-pound rated | 1 | Breaker and lug terminations have specified torque values. Inspectors may check. |
