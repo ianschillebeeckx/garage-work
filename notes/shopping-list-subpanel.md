@@ -42,6 +42,7 @@ More expensive, requires conduit, but avoids aluminum termination concerns.
 | 50A 2-pole GFCI | Siemens QF250A | 1 | EV charger — NEMA 14-50. GFCI required per CEC 625 + 210.8(A). See note below about nuisance tripping. |
 | 30A 2-pole GFCI | Siemens QF230A | 1 | Electric dryer (future). GFCI required for 240V garage receptacle per CEC 210.8(A). |
 | 20A 1-pole GFCI | Siemens QF120A | 4 | Washer, general/garage door, workshop tools, dust collection. All garage receptacles must be GFCI per CEC 210.8(A)(2). |
+| Type 2 SPD | Siemens QSA2020SPD or FS140 | 1 | **Surge protection — required per DBI inspector** (2nd subpanel). Takes 2 breaker slots. ~$50-100. |
 
 **Note:** The SN series panel supports plug-on neutral breakers (no pigtail needed). The QF-series breakers above are pigtail-style and work fine in the SN panel. If you prefer the cleaner plug-on neutral install, look for the equivalent Siemens PON GFCI breakers — but QF series is widely available and works in any Siemens panel.
 
