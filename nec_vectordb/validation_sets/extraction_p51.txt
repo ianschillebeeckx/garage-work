@@ -1,0 +1,28 @@
+Unit 3: Boxes and Enclosures 37
+Gaps or Open Spaces
+A Damaged or incomplete plaster, drywall, or plasterboard surfaces around boxes
+employing a fl ush-type cover or faceplate must be repaired so that no gap or open
+space greater than 1⁄8 in. (3 mm) surrounds the box or fi tting »314.21«.
+Surface Extensions
+Equipment grounding, where required, must be in accordance with Part VI
+of Article 250.
+A Surface extensions must have an extension ring mounted and mechani-
+cally secured to the box »314.22«.
+Extension
+Ring
+Flush-
+Mounted
+Box
+Minimum Internal Depth
+A Except as permitted in 250.112(l), all metal boxes shall be grounded and bonded in
+accordance with Parts I, IV, V, VI, VII, and X of Article 250, as applicable »314.4«.
+B Outlet boxes that do not enclose devices or utilization equipment must have an
+i nternal depth of at least 1⁄2 in. (12.7 mm) »314.24(A)«.
+6 CU. IN.
+6 CU. IN.
+Surface Extensions Made from Covers
+A The cover of a fl ush-mounted box can provide a surface extension where the cover is
+d esigned so that it is unlikely to fall off or be removed if its securing means becomes loose.
+The wiring method shall be fl exible for an approved length that permits removal of the cover
+and provides access to the box interior and shall be arranged so that any grounding continuity
+is independent of the connection between the box and the cover »314.22 Exception«.

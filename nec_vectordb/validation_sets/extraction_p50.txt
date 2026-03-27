@@ -1,0 +1,82 @@
+36 SECTION 1: FOUNDATIONAL PROVISIONS
+Single-Gang Nonmetallic Boxes
+Securing Cables to Nonmetallic Boxes
+A Nonmetallic-sheathed cable
+not fastened to the box must be
+secured within 8 in. (200 mm) of
+the box »314.17(C) Exception«.
+B At least 6 in. (150 mm) of
+free conductor (measured from
+the point in the box where
+it emerges from its raceway
+or cable sheath) shall be left
+at each outlet, junction, and
+switch point »300.14«.
+C The cable sheath shall
+extend into the box at least
+1⁄4 in. (6 mm) through the
+cable knockout or opening
+»314.17(C) Exception«.
+8 in.
+(200 mm)
+A Nonmetallic-sheathed cable shall
+be secured within 12 in. (300 mm) of
+every box »334.30«.
+B Cables entering a nonmetallic
+box must be secured to the box,
+unless it is a single-gang nonmetallic
+box »314.17(C)«.
+C The cable sheath shall extend
+into the box at least 1⁄4 in. (6 mm)
+through the cable knockout or
+opening »314.17(C)«.
+12 in.
+(300 mm)
+CAUTION
+All permitted wiring
+methods must be secured
+to the box, unless the
+exception in 314.17(C)
+has been met.
+N O T E
+The exception pertaining to
+nonmetallic-sheathed cable
+entering a box which has no
+means of securing the cable
+to the box applies only to
+single-gang nonmetallic boxes
+»314.17(C) Exception«.
+© Cengage Learning 2012
+© Cengage Learning 2012
+Back-to-Back Boxes in Fire-Resistant-
+Rated Wall
+Boxes in Combustible and
+Noncombustible Materials
+A Boxes employing a fl ush-type cover or faceplate in walls
+or ceilings constructed of noncombustible material (concrete,
+tile, etc.) shall be installed so that the front edge of the box is
+within 1⁄4 in. (6 mm) of the fi nished surface »314.20«.
+B Boxes employing a fl ush-type cover or faceplate in walls
+or ceilings constructed of combustible material, such as wood,
+shall be fl ush with or extend beyond the fi nished surface
+»314.20«.
+A Qualifi ed testing laboratories publish electrical construction
+material directories listing installation restrictions that apply
+to maintaining fi re-resistive ratings of assemblies involving
+penetrations, or openings. (An example is the minimum 24-in.
+[600-mm] horizontal separation usually required between
+boxes on opposite sides of the wall.) These fi re-resistance
+directories, product listings, and building codes offer assistance
+in 300.21 compliance »300.21 (Informational Note)«.
+Fire-Resistant-Rated Walls
+Combustible
+Material
+Noncombustible
+Material
+Fire-Resistant-Rated Walls
+Flush 1
+4 in.
+Maximum
+24˝
+Non-Fire-Resistant-Rated Walls
+Permitted

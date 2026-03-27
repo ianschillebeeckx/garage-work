@@ -1,3 +1,6 @@
 .DS_Store
 .idea/
 private/
+.venv/
+nec_vectordb/chroma_db/
+nec_vectordb/*.pdf
