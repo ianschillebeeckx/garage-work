@@ -16,7 +16,8 @@ import os
 import re
 import sys
 
-from ingest import extract_pages
+from ingest import extract_pages, DEFAULT_PDF
+from text_normalize import replace_ligatures
 
 
 VALIDATION_DIR = os.path.join(os.path.dirname(__file__), "validation_sets")
@@ -43,19 +44,9 @@ def load_validation_cases():
     return cases
 
 
-LIGATURES = {
-    "\ufb01": "fi",
-    "\ufb02": "fl",
-    "\ufb00": "ff",
-    "\ufb03": "ffi",
-    "\ufb04": "ffl",
-}
-
-
 def normalize(text):
     """Normalize whitespace, ligatures, and bullet spacing for comparison."""
-    for lig, replacement in LIGATURES.items():
-        text = text.replace(lig, replacement)
+    text = replace_ligatures(text)
     # Normalize bullet characters — fitz sometimes drops space after bullets
     text = text.replace("▸", "▸ ")
     return " ".join(text.split())
@@ -121,7 +112,7 @@ def run_extraction_checks(pdf_path, verbose=False):
 
 def main():
     parser = argparse.ArgumentParser(description="Validate PDF text extraction")
-    parser.add_argument("pdf_path", help="Path to the PDF file")
+    parser.add_argument("pdf_path", nargs="?", default=DEFAULT_PDF, help="Path to the PDF file")
     parser.add_argument("--verbose", "-v", action="store_true")
     args = parser.parse_args()
 

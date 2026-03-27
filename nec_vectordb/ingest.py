@@ -21,6 +21,7 @@ import sys
 import fitz  # pymupdf
 import chromadb
 from chromadb.utils.embedding_functions import SentenceTransformerEmbeddingFunction
+from text_normalize import replace_ligatures
 
 
 # --- Config ---
@@ -30,6 +31,10 @@ EMBEDDING_MODEL = "all-MiniLM-L6-v2"
 COLLECTION_NAME = "nec_guide"
 DB_PATH = os.path.join(os.path.dirname(__file__), "chroma_db")
 STRIP_PHRASES_PATH = os.path.join(os.path.dirname(__file__), "strip_phrases.txt")
+DEFAULT_PDF = os.path.join(
+    os.path.dirname(__file__),
+    "Illustrated Guide to the National Electrical Code 6th Edition by Charles R. Miller (1).pdf",
+)
 
 
 def load_strip_phrases() -> list[str]:
@@ -60,6 +65,7 @@ def extract_pages(pdf_path: str) -> list[dict]:
     pages = []
     for i, page in enumerate(doc):
         text = page.get_text()
+        text = replace_ligatures(text)
         for phrase in strip_phrases:
             text = text.replace(phrase, "")
         if text.strip():
@@ -161,6 +167,6 @@ def ingest(pdf_path: str):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Ingest NEC guide PDF into vector DB")
-    parser.add_argument("pdf_path", help="Path to the PDF file")
+    parser.add_argument("pdf_path", nargs="?", default=DEFAULT_PDF, help="Path to the PDF file")
     args = parser.parse_args()
     ingest(args.pdf_path)
