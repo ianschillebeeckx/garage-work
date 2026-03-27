@@ -53,9 +53,11 @@ LIGATURES = {
 
 
 def normalize(text):
-    """Normalize whitespace and common ligatures for comparison."""
+    """Normalize whitespace, ligatures, and bullet spacing for comparison."""
     for lig, replacement in LIGATURES.items():
         text = text.replace(lig, replacement)
+    # Normalize bullet characters — fitz sometimes drops space after bullets
+    text = text.replace("▸", "▸ ")
     return " ".join(text.split())
 
 

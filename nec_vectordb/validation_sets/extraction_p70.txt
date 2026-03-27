@@ -27,7 +27,7 @@ C Openings (slots or holes) can
 be punched (either factory or fi eld),
 cut, or drilled into the metal
 members »300.4(B)(1)«.
-© Cengage Learning 2012
+
 N O T E
 The largest hole that can be bored in a 31⁄2-in.
 wood stud without using a steel plate (clip or
@@ -43,7 +43,7 @@ trical nonmetallic tubing), a steel plate (clip
 or sleeve) at least 1⁄16 in. (1.6 mm) thick
 shall be used to protect the cable or tubing
 »300.4(B)(2)«.
-© Cengage Learning 2012
+
 Steel Plates
 A Where the bored hole is less than 11 in. (32 mm)
 from the edge, the cable (or raceway-type wiring
@@ -69,9 +69,9 @@ be installed before the building fi nish is installed
 »300.4(A)(2)«.
 F Requirements for notched wood members apply
 to all locations (concealed and exposed).
-© Cengage Learning 2012
+
 N O T E
 A listed and marked steel plate that provides equal or better protec-
 tion against nail or screw penetration shall be permitted, even if it is
 less than 1⁄16 in. (1.6 mm) thick »300.4(A)(2) Exception No. 2«.
-www.Technicalbookspdf.com
+
