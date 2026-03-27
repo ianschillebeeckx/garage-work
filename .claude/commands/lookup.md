@@ -29,30 +29,49 @@ python3 nec_vectordb/query.py "reformulation 4" --top 3
 python3 nec_vectordb/query.py "reformulation 5" --top 3
 ```
 
-Review all results. Note the **page numbers** and any **section/unit headings** visible in the text. Deduplicate results that appear across multiple queries. If no relevant results are returned from any query, tell the user that nothing was found in the NEC guide for this topic.
+### Step 2: Assess Vector DB Results
 
-### Step 2: Web Search
+After running all 6 queries, assess the quality of results:
 
-Use web search to supplement the vector DB results with:
-- The specific NEC article text (if the vector DB returned a section number but not the full text)
-- San Francisco local electrical code amendments (SF Electrical Code, Section 89)
-- California Electrical Code (CEC) differences from the NEC
-- Inspection requirements and what electrical inspectors typically look for
+**Strong results** — the returned chunks directly discuss the topic, cite specific NEC sections, and similarity scores are above 0.6. These are **high confidence** findings from a trusted source.
 
-### Step 3: Synthesize and Cite
+**Weak or no results** — the returned chunks are tangentially related or similarity scores are below 0.5. This is a signal that the topic may be **newer than the book** (the NEC guide is 6th edition, pre-2020 NEC). Flag this clearly.
 
-Combine findings from the vector DB and web search. For every code reference:
-- Cite the **NEC section number** (e.g., 210.8(A)(2))
-- Cite the **page number** from the NEC guide (e.g., "p.160 of Illustrated Guide to the NEC")
-- Cite the **URL** for web-sourced findings
+### Step 3: Web Search
 
-### Step 4: Update Project Files
+The purpose of web search depends on the vector DB result quality:
 
-After researching, update the relevant file(s) in `permits/` or `decisions/` with what you found. Clearly mark sourced information with the NEC section and page number or URL.
+**If vector DB returned strong results:**
+- Web search is supplementary — use it to check if the 2020 or 2023 NEC **changed, expanded, or overrode** the sections found in the vector DB
+- Look for NEC code cycle changes (2020, 2023) that affect those sections
+- Check San Francisco local amendments (SF Electrical Code, Section 89)
+
+**If vector DB returned weak or no results:**
+- This topic is likely newer code not in the book. Web search is the primary source.
+- Search specifically for the relevant NEC article text
+- Look for which NEC cycle introduced the requirement (2020? 2023?)
+- Check California Electrical Code (CEC) adoption status
+
+### Step 4: Synthesize with Source Tiers
+
+Present findings to the user with clear source attribution using these tiers:
+
+**Tier 1 — NEC Guide (vector DB):** High confidence. Cite the NEC section number AND the page number from the guide (e.g., "NEC 210.8(A)(2), p.160 of Illustrated Guide to the NEC"). This is the trusted baseline.
+
+**Tier 2 — Web-confirmed update:** The vector DB had the base requirement, and web search confirmed the current NEC cycle preserves or expands it. Cite both sources.
+
+**Tier 3 — Web-only (newer code):** Not found in the NEC guide. This is likely a 2020 or 2023 NEC addition. Cite the URL and note the NEC cycle. Flag to the user: *"Not found in the NEC guide (pre-2020 edition). The following is from web sources and reflects [2020/2023] NEC additions."*
+
+**Conflict:** If web results contradict the vector DB, present both positions. The newer NEC cycle may override, but the user should see the discrepancy and understand what changed.
+
+### Step 5: Update Project Files
+
+After researching, update the relevant file(s) in `permits/` or `decisions/` with what you found. Mark each finding with its source tier and citation.
 
 ## Tips
 
 - This skill is for **electrical code only**. For plumbing, building, or other codes, use web search directly.
-- The vector DB contains the "Illustrated Guide to the National Electrical Code 6th Edition" — it explains NEC requirements with illustrations and examples, but is not the NEC text itself.
+- The vector DB contains the "Illustrated Guide to the National Electrical Code 6th Edition" — it explains NEC requirements with illustrations and examples, but is not the NEC text itself. It predates the 2020 NEC cycle.
 - San Francisco has adopted the California Electrical Code (CEC), which is based on the NEC with California amendments.
 - The NEC guide PDF pages are offset by +14 from the printed page numbers (PDF page 200 = printed page 186).
+- When in doubt, the vector DB reduces **false positives** (it won't make things up) while web search reduces **false negatives** (it catches newer requirements). Use both.
