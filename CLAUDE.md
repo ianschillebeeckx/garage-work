@@ -4,7 +4,10 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Purpose
 
-This repo is a project management workspace for a garage renovation. It tracks tasks, dependencies, permitting, and progress for home improvement work on one wall of a residential garage.
+This repo serves two goals:
+
+1. **Project management for a garage renovation** — notetaking, tracking dependencies, plans, permitting, and progress for home improvement work on one wall of a residential garage.
+2. **Learning platform** — getting hands-on exposure to Claude Code, Claude skills, RAG (retrieval-augmented generation), and other agentic technologies.
 
 ## Key Constraints
 
