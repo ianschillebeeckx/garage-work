@@ -20,12 +20,24 @@ source .venv/bin/activate
 
 Then query the NEC guide vector database. Run **6 queries** — the user's raw question plus 5 reformulations that ask the same thing in different ways (different terminology, more specific, more general, focusing on different aspects). This improves recall since vector search is sensitive to phrasing.
 
+**Run all 6 queries in parallel** by making 6 separate Bash tool calls in a single message:
+
 ```bash
 python3 nec_vectordb/query.py "the raw user question" --top 3
+```
+```bash
 python3 nec_vectordb/query.py "reformulation 1" --top 3
+```
+```bash
 python3 nec_vectordb/query.py "reformulation 2" --top 3
+```
+```bash
 python3 nec_vectordb/query.py "reformulation 3" --top 3
+```
+```bash
 python3 nec_vectordb/query.py "reformulation 4" --top 3
+```
+```bash
 python3 nec_vectordb/query.py "reformulation 5" --top 3
 ```
 
