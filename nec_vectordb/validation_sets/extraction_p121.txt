@@ -1,0 +1,69 @@
+ONE-FAMILY DWELLINGS
+section
+2
+U N I T
+6
+General Provisions
+Objectives
+Introduction
+After studying this unit, the student should:
+▸ be able to calculate the minimum number of
+15- and 20-ampere branch circuits in a one-family
+dwelling.
+▸ know the requirements for single receptacles on
+individual branch circuits.
+▸ understand the branch-circuit ratings allowed for
+general-purpose receptacles.
+▸ know how to lay out general-purpose receptacles in
+a dwelling.
+▸ know the receptacle ratings allowed on various size
+branch circuits.
+▸ understand the requirements for receptacle boxes.
+▸ have a good understanding of split-wire receptacles.
+▸ know the requirements for wet bar receptacles.
+▸ be familiar with the provisions concerning the
+mini mum length of free conductors inside boxes.
+▸ know the receptacle replacement requirements.
+▸ understand the general requirements for lighting
+and switches.
+▸ be familiar with the use of a white conductor as an
+ungrounded conductor.
+▸ understand general requirements for devices and
+luminaire boxes.
+▸ know the provisions for outdoor receptacles.
+▸ be familiar with the provisions concerning illumi-
+nating outdoor entrances and exits.
+▸ understand the requirements for attaching recep-
+tacles or lighting to vegetation (such as trees).
+Unit 6 contains provisions concerning general areas
+both inside and outside of one-family dwellings. A
+one-family dwelling is a building consisting solely of
+one dwelling unit »Article 100«. Learning codes that
+pertain to one-family dwellings is of great importance
+because these codes are the foundation for all residential
+wiring. One-family dwellings are built in all shapes and
+sizes. Some general codes apply to every dwelling, such
+as the placement of receptacles in habitable rooms.
+Nonmetallic-sheathed cable is the most common
+wiring type installed in one-family dwellings. Article 334
+covers the use, installation, and construction specifi ca-
+tions of nonmetallic-sheathed cable (Types NM, NMC,
+and NMS). Uses permitted for nonmetallic-sheathed
+cable are covered in 334.10 and uses not permitted are
+in 334.12. (See Unit 4 of this text for Code requirements
+pertaining to nonmetallic-sheathed cable.)
+Prior to the 2008 edition of the NEC, only 120-volt,
+single-phase, 15- and 20-ampere branch circuits sup-
+plying outlets installed in dwelling unit bedrooms were
+required to be arc-fault circuit-interrupter protected.
+Now all 120-volt, single-phase, 15- and 20-ampere
+branch circuits supplying outlets or devices installed in
+dwelling unit kitchens, family rooms, dining rooms, liv-
+ing rooms, parlors, libraries, dens, bedrooms, sunrooms,
+recreation rooms, closets, hallways, laundry areas, or
+similar rooms or areas shall be protected by any of the
+means described in 210.12(A)(1) through (6).
+Over the last several editions of the NEC, require-
+ments for GFCI and AFCI protection have expanded.
+See 210.8(A) for GFCI protection for personnel require-
+ments and 210.12 for AFCI protection requirements.

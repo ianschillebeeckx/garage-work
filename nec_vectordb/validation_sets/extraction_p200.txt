@@ -1,0 +1,63 @@
+186 SECTION 2: ONE-FAMILY DWELLINGS
+Circuit Breakers
+The standard ampere ratings for fuses and inverse-time
+circuit breakers are 15, 20, 25, 30, 35, 40, 45, 50, 60, 70, 80,
+90, 100, 110, 125, 150, 175, 200, 225, 250, 300, 350, 400,
+450, 500, 600, 700, 800, 1000, 1200, 1600, 2000, 2500,
+3000, 4000, 5000, and 6000 amperes. Fuses and inverse-
+time circuit breakers with nonstandard ampere ratings can be
+used. Additional standard ampere ratings for fuses are 1, 3,
+6, 10, and 601 »240.6(A)«.
+A A circuit breaker is a device designed to both open and
+close a circuit by nonautomatic means and to open the circuit
+automatically when subjected to a predetermined overcurrent
+without being damaged (when properly applied within its
+rating) »Article 100«.
+B All circuit breakers having an interrupting rating other than
+5000 amperes must be appropriately marked. The interrupting
+rating is not required on circuit breakers used for supplemen-
+tary protection »240.83(C)«. (Note: The ampere interrupt-
+ing rating [AIR] is not the current rating of the circuit breaker.)
+C Circuit breakers must have a voltage rating (clearly
+marked) no less than the nominal system voltage that indi-
+cates their ability to interrupt fault current (between phases or
+phase to ground) »240.83(E)«.
+D General-use and motor-circuit switches, circuit breakers,
+and molded case switches, where mounted in an enclosure as
+described in 404.3, shall clearly indicate whether they are in
+the open (off) or closed (on) position »404.7«.
+E For vertically operated circuit breakers, the up position
+of the handle shall be the closed (on) position »240.81 and
+404.7«.
+F A circuit breaker’s ampere rating must be durably marked
+and remain visible after installation. When necessary to
+ensure visibility, removal of a trim or cover is permitted
+»240.83(A)«.
+G A circuit breaker’s inverse time is a qualifying term
+i ndicating an intentional delay in the tripping action of the
+breaker. The length of the delay decreases as the magnitude
+of the current increases »Article 100«.
+H A nonadjustable circuit breaker does not allow the
+value of current that triggers the tripping action, or the time
+required for its operation, to be altered »Article 100«.
+I A circuit breaker’s open (off) or closed (on) positions must
+be clearly identifi ed »240.81 and 404.7«.
+J The ampere rating of any circuit breaker rated at
+100 amperes or less, and 1000 volts or less, must be molded,
+stamped, etched, or similarly marked into the handle or
+escutcheon area »240.83(B)«.
+CAUTION
+Circuit breakers and fuses can be connected in parallel
+provided they are factory assembled and listed as a unit.
+Individual fuses, circuit breakers, or combinations shall not
+otherwise be connected in parallel »240.8«.
+N O T E
+Circuit breakers must be trip free as well as manually oper-
+able in both the closed and opened positions. Although a
+circuit breaker may normally operate by electrical or
+pneumatic means, a means of manual operation must also
+be provided »240.80«.
+Circuit breakers used as switches in 120-volt and 277-volt
+fl uorescent lighting circuits must be listed and be marked
+“SWD” or “HID” »240.83(D)«.
+

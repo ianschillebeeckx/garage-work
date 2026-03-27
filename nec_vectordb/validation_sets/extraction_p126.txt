@@ -1,0 +1,50 @@
+112 SECTION 2: ONE-FAMILY DWELLINGS
+Ampere Rating of Receptacles
+Receptacle branch circuits must have a rating of 20 amperes
+for laundry areas, bathrooms, kitchens (except for refrigera-
+tion equipment supplied from an individual branch circuit
+rated 15 amperes or greater), dining rooms, pantries, break-
+fast rooms, and similar areas. Throughout the remainder of
+a one-family dwelling, 15-ampere receptacle branch circuits
+are allowed.
+Lighting and receptacles can share the same branch circuit,
+except for small-appliance receptacles, bathroom receptacles
+(unless the circuit supplies a single bathroom), and laundry
+receptacles »210.23(A)«. See Unit 7 for additional infor-
+mation concerning receptacles and lighting in these specifi c
+areas.
+A Receptacles installed on 15-ampere circuits must have an
+ampere rating of not more than 15 amperes
+»Table 210.21(B)(3)«.
+B A 20-ampere duplex receptacle shall not be installed on a
+15-ampere circuit.
+C Receptacles installed on 20-ampere circuits can have an
+ampere rating of either 15 or 20 amperes
+»Table 210.21(B)(3)«.
+N O T E
+Branch circuits for receptacles shall not be smaller than
+14 AWG »210.19(A)(4)«. Generally, 15-ampere circuits
+require 14 AWG and 20-ampere circuits require 12 AWG
+copper conductors. Larger conductors may be needed to
+compensate for voltage drop or ambient temperature, or
+where more than three current-carrying conductors exist
+in a raceway or cable.
+A Single Receptacle on an Individual
+Branch Circuit
+D A single receptacle installed on a branch circuit with no
+other device or outlet shall have an ampere rating not less
+than the rating of that circuit »210.21(B)(1)«.
+E Installing two or more 20-ampere receptacles or outlets
+on a 15-ampere circuit is not permitted, but this require-
+ment does not apply to a single receptacle. [See 210.21(B)
+(1)] Note, while there is no provision that prohibits installing
+a 20-ampere single receptacle on a 15-ampere circuit, there
+is a provision that does prohibit the load from exceeding the
+branch-circuit ampere rating. [See 210.22]
+F A 15-ampere single receptacle shall not be installed on a
+20-ampere individual branch circuit.
+G A duplex receptacle is not a single receptacle. As defi ned
+in Article 100, a single receptacle is a single contact device
+with no other contact device on the same yoke.
+H Receptacles on 20-ampere circuits can have a rating of
+either 15 or 20 amperes »Table 210.21(B)(3)«.

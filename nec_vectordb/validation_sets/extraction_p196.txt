@@ -1,0 +1,61 @@
+182 SECTION 2: ONE-FAMILY DWELLINGS
+Overlapping Workspace
+A The workspace width required in front of electric equip-
+ment is the greater of the width of the equipment or 30 in.
+(762 mm) »110.26(A)(2)«.
+B In this confi gura-
+tion, it is not necessary
+that each panel have
+its own individual
+working space.
+C A panel (or equip-
+ment) can share
+the working space
+of other equipment
+a ssociated with the
+electrical installation.
+Equipment behind Doors
+A Equipment can be located
+behind a door provided a 3-ft
+(914-mm) working space
+is achieved by closing
+the door.
+B Overcurrent
+devices must be read-
+ily accessible unless
+one of the conditions in
+240.24(A)(1) through
+(4) apply »240.24(A)«.
+(The term “readily
+accessible” is defi ned in
+Unit 2 of this book.)
+Working Space Depth
+A Concrete, brick, or tile walls are recognized as grounded
+»Table 110.26(A) Note 2«.
+B Table 110.26(A) specifi es working space depth require-
+ments in the direction of access to live parts. Distances are
+measured from the live parts (if exposed) or from the front or
+opening (if enclosed) »110.26(A)(1)«.
+C The minimum workspace depth for equipment operating
+at 150 volts, nominal (or less) to ground, is 3 ft (914 mm),
+regardless of the conditions found in Table 110.26(A). For
+equipment operating between 151 and 600 volts, nominal
+to ground, refer to Table 110.26(A).
+D Electric equipment must be fi rmly secured to the surface
+on which it is mounted. Wooden plugs driven into holes
+in masonry, concrete, plaster, or similar materials are not
+acceptable »110.13(A)«.
+E Except as elsewhere required or permitted, the workspace
+area for equipment operating at 600 volts, nominal (or less)
+to ground, which is likely to require examination, adjustment,
+servicing, or maintenance while energized, must comply with
+(1), (2), and (3) of 110.26(A) »110.26(A)«.
+F The minimum working space height is 61 ft (2.0 m),
+except for existing dwellings whose service equipment or
+p anelboard does not exceed 200 amperes »110.26(A)(3)«.
+G The minimum acceptable width of working space is 30 in.
+(762 mm) »110.26(A)(2)«.
+N O T E
+Installation and working space requirements for equipment
+operating over 600 volts, nominal, are found in 110.30
+through 110.40.

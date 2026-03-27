@@ -1,0 +1,74 @@
+[
+  {
+    "query": "GFCI requirements for garage receptacles",
+    "expected_pages": [160, 162],
+    "must_contain": "210.8(A)(2)",
+    "top_k": 5
+  },
+  {
+    "query": "ampacity of copper conductors at 75 degrees",
+    "expected_pages": [111, 276],
+    "must_contain": "310.15(B)(16)",
+    "top_k": 5
+  },
+  {
+    "query": "dwelling unit receptacle outlet spacing requirements",
+    "expected_pages": [127, 128, 129],
+    "must_contain": "210.52",
+    "top_k": 5
+  },
+  {
+    "query": "subpanel grounding electrode bonding requirements",
+    "expected_pages": [],
+    "must_contain": "250",
+    "top_k": 5
+  },
+  {
+    "query": "surge protective device SPD requirements dwelling",
+    "expected_pages": [],
+    "must_contain": "",
+    "top_k": 5
+  },
+  {
+    "query": "EV charger electric vehicle branch circuit requirements",
+    "expected_pages": [],
+    "must_contain": "625",
+    "top_k": 5
+  },
+  {
+    "query": "wire size for 100 amp feeder subpanel",
+    "expected_pages": [],
+    "must_contain": "",
+    "top_k": 5
+  },
+  {
+    "query": "garage minimum number of receptacle outlets per car space",
+    "expected_pages": [160],
+    "must_contain": "210.52(G)",
+    "top_k": 5
+  },
+  {
+    "query": "NM-B romex cable permitted uses residential",
+    "expected_pages": [],
+    "must_contain": "334",
+    "top_k": 5
+  },
+  {
+    "query": "conductor termination temperature limitations",
+    "expected_pages": [111],
+    "must_contain": "110.14",
+    "top_k": 5
+  },
+  {
+    "query": "laundry receptacle outlet requirements dwelling",
+    "expected_pages": [],
+    "must_contain": "210.52(F)",
+    "top_k": 5
+  },
+  {
+    "query": "overcurrent protection breaker sizing for conductors",
+    "expected_pages": [],
+    "must_contain": "240",
+    "top_k": 5
+  }
+]
