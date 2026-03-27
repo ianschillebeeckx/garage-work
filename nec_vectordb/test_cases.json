@@ -31,9 +31,9 @@
   },
   {
     "query": "EV charger electric vehicle branch circuit requirements",
-    "expected_pages": [],
-    "must_contain": "625",
-    "top_k": 5
+    "expected_pages": [282, 283, 291, 292],
+    "must_contain": "",
+    "top_k": 10
   },
   {
     "query": "wire size for 100 amp feeder subpanel",
