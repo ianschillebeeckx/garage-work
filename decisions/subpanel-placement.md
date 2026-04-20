@@ -6,39 +6,46 @@
 ## Layout
 
 ```
-                    NORTH (street / garage door)
-    ┌──────────────────────────────────────────────┐
-    │                                              │
-    │   Main Panel ← NE corner (exterior, Type 3R) │
-    │   ·                                          │
-    │   · ~6ft                                     │
-    │   ·                                          │
-    │   Gas Meter (inside)                         │
-    │   ·                                          │
-    │   · gap (proposed new subpanel location)     │
-    │   ·                                          │
-    │   Existing House Subpanel (~15ft from main)  │
-    │                                              │
-    │              GARAGE                          │
-    │              (east half of 1st floor)         │
-    │                                              │
-    │                                              │
-    ├──────────────────────┬───────────────────────┤
-    │                      │                       │
-    │   Living space       │       Door            │
-    │   (west half, 1st fl)│       (south side)    │
-    │                      │                       │
-    └──────────────────────┴───────────────────────┘
-                    SOUTH
+              NORTH (garage door, street side)
+    ┌──────────┬───────────────────────────────────┐
+    │          │                                   │
+    │ Living   │  GARAGE (east half, 1st floor)    │
+    │ space    │  Long & slender, runs N/S         │
+    │ (west    │                                   │
+    │ half)    │  Main Panel ← exterior, Type 3R   │
+    │          │  Gas Meter (inside, near main)    │
+    │ 5/8" gyp │                                   │
+    │ fire-    │  ⇧ proposed new subpanel here     │
+    │ sealed   │                                   │
+    │ wall ⇨   │                                   │
+    │          │                                   │
+    │          │                                   │
+    │          │                                   │
+    │          │                                   │
+    │          ├───────────────────────────────────┤
+    │          │   Door to outside (south side)    │
+    └──────────┴───────────────────────────────────┘
+              SOUTH (door)
 
-    2nd floor: main living space above
+    West (living space) ← → East (target wall, unfinished)
+    Ceiling above garage: 2nd floor living space (unfinished)
 ```
+
+## Walls / Surfaces Summary
+
+| Surface | Faces | Status | What's on the other side |
+|---------|-------|--------|--------------------------|
+| **East wall** (target wall) | Outside | Unfinished — adding subpanel + circuits | Property line ~4 ft away, neighbor's house ~8 ft away |
+| **West wall** | Living space | 5/8" gypsum, fire-sealed (existing) | Living space (1st floor) |
+| **North wall** | Outside | — | Garage door, street |
+| **South wall** | Outside | — | Door to outside |
+| **Ceiling** | Up | Unfinished | 2nd floor living space (habitable) |
 
 ## Proposed Placement
 
-New garage subpanel between gas meter and existing house subpanel on north (target) wall, inside the garage. Possibly 1 stud bay away from gas meter.
+New garage subpanel on the **east (target) wall**, inside the garage. Located between the existing main panel and existing house subpanel.
 
-**Feeder run:** Main panel (exterior NE corner) → through wall → new subpanel (interior). Estimated ~6-10 feet. At this distance, voltage drop is negligible for 100A on 1 AWG copper.
+**Feeder run:** Main panel (exterior, on east wall) → through wall → new subpanel (interior, east wall). Estimated ~6-10 feet horizontal run through bored studs. At this distance, voltage drop is negligible for 100A.
 
 ## EV Charger Placement
 

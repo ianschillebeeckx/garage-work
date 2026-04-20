@@ -41,7 +41,7 @@ More expensive, requires conduit, but avoids aluminum termination concerns.
 | 50A 2-pole | Siemens Q250 | 1 | HVAC condenser (relocated from main panel). Hardwired equipment — GFCI not required. |
 | 50A 2-pole GFCI | Siemens QF250A | 1 | EV charger — NEMA 14-50. GFCI required per CEC 625 + 210.8(A). See note below about nuisance tripping. |
 | 30A 2-pole GFCI | Siemens QF230A | 1 | Electric dryer (future). GFCI required for 240V garage receptacle per CEC 210.8(A). |
-| 20A 1-pole GFCI | Siemens QF120A | 4 | Washer, general/garage door, workshop tools, dust collection. All garage receptacles must be GFCI per CEC 210.8(A)(2). |
+| 20A 1-pole GFCI | Siemens QF120A | 5 | Washer (dedicated), laundry area general/dryer, general/garage door, workshop tools, dust collection. All garage receptacles must be GFCI per CEC 210.8(A)(2). |
 | Type 2 SPD | Siemens QSA2020SPD or FS140 | 1 | **Surge protection — required per DBI inspector** (2nd subpanel). Takes 2 breaker slots. ~$50-100. |
 
 **Note:** The SN series panel supports plug-on neutral breakers (no pigtail needed). The QF-series breakers above are pigtail-style and work fine in the SN panel. If you prefer the cleaner plug-on neutral install, look for the equivalent Siemens PON GFCI breakers — but QF series is widely available and works in any Siemens panel.
@@ -65,7 +65,7 @@ More expensive, requires conduit, but avoids aluminum termination concerns.
 |------|------|-----|-------|
 | 6/3 NM-B (Romex) w/ ground | 6 AWG, 3-conductor | ~25 ft | EV charger circuit (subpanel → NEMA 14-50). Length depends on outlet placement. |
 | 10/3 NM-B (Romex) w/ ground | 10 AWG, 3-conductor | ~25 ft | Dryer circuit (subpanel → dryer receptacle) |
-| 12/2 NM-B (Romex) w/ ground | 12 AWG, 2-conductor | ~100 ft | Four 20A 120V circuits (washer, general, workshop ×2). Estimate ~25ft each. |
+| 12/2 NM-B (Romex) w/ ground | 12 AWG, 2-conductor | ~125 ft | Five 20A 120V circuits (washer dedicated, laundry general, general/garage door, workshop ×2). Estimate ~25ft each. |
 | HVAC whip / wire | Reuse existing | — | Existing AC wire runs through garage already — cut and re-terminate at subpanel |
 
 ## Receptacles & Boxes
@@ -81,7 +81,7 @@ Finished wall = stud + plywood sheathing (1/2"–5/8") + fire-rated drywall (5/8
 | ~~NEMA 14-50R receptacle~~ | ~~50A 240V~~ | ~~1~~ | **ALREADY OWNED** — check if flush-mount box can be shimmed/set to correct depth for plywood+drywall |
 | ~~NEMA 14-50 box~~ | | ~~1~~ | **ALREADY OWNED** — verify depth works with 1-1/4" wall build-up |
 | NEMA 14-30R receptacle | 30A 240V, flush mount | 1 | Dryer outlet |
-| 20A duplex receptacles | Tamper-resistant | 6-8 | For the four 120V circuits. Number depends on how many outlets per circuit. |
+| 20A duplex receptacles | Tamper-resistant | 8-10 | For the five 120V circuits. Laundry area gets 2 (in a 2-gang box), rest distributed across workshop/general. |
 
 ### Boxes
 
@@ -89,8 +89,9 @@ All boxes are **new-work nail-on** type — mount to studs during rough-in with 
 
 | Item | Spec | Qty | Notes |
 |------|------|-----|-------|
-| Deep single-gang new-work boxes | Nail-on, 2-1/2" or 3-1/2" deep, adjustable | 6-8 | For 20A duplex receptacles. Deep boxes give room for GFCI receptacles if ever needed, and for wire fill. |
-| 2-gang or large single-gang new-work box | Nail-on, rated for 30A receptacle | 1 | For NEMA 14-30R dryer outlet. Check receptacle mounting pattern. |
+| Deep single-gang new-work boxes | Nail-on, 2-1/2" or 3-1/2" deep, adjustable | 6-8 | For 20A duplex receptacles (workshop/general circuits). Deep boxes give room for wire fill. |
+| 2-gang new-work box | Nail-on, deep | 1 | Laundry area — two 120V duplex receptacles (washer dedicated + laundry general). |
+| Single-gang box for NEMA 14-30R | Metal or deep single-gang, rated for 30A | 1 | Dryer outlet. Near the 2-gang laundry box, same stud bay or adjacent. |
 | Box for NEMA 14-50 | | 0 | **ALREADY OWNED** — confirm it can mount to framing at correct depth |
 | Box extenders | Single-gang | 2-3 spare | Keep on hand in case any box ends up recessed after plywood + drywall. Cheaper than remounting. |
 
@@ -98,7 +99,8 @@ All boxes are **new-work nail-on** type — mount to studs during rough-in with 
 
 | Item | Spec | Qty | Notes |
 |------|------|-----|-------|
-| Single-gang wall plates | Standard, match receptacle color | 6-8 | For 20A duplex receptacles |
+| Single-gang wall plates | Standard, match receptacle color | 6-8 | For 20A duplex receptacles (workshop/general) |
+| 2-gang wall plate | Standard, match receptacle color | 1 | Laundry area (washer + general) |
 | Wall plate — NEMA 14-50 | Flush mount | 1 | If not integrated into existing box/receptacle |
 | Wall plate — NEMA 14-30 | Flush mount | 1 | Dryer |
 
@@ -118,7 +120,8 @@ All boxes are **new-work nail-on** type — mount to studs during rough-in with 
 | Cable staples — NM-B (12/2, 10/3) | Plastic or metal, various sizes | 1 box each | Secure Romex within 12" of boxes and every 4.5 ft per NEC 334.30. |
 | Cable staples — SER feeder | Sized for 2/0 SER cable (~1.2" OD) | 1 pack | If using Option A (SER). Secure within 12" of panel and every 4.5 ft. |
 | Wire nuts / Wago connectors | Assorted sizes | 1 pack | |
-| Cable clamps | For panel knockouts | As needed | NM-B and SER cable clamps for subpanel and boxes |
+| Cable clamps | For panel knockouts | 6-7 | NM-B and SER cable clamps for subpanel (one per circuit entering the panel) |
+| Fire-rated putty pads | 3M MPP+ or equivalent | 12 | Required on every box on the east wall to maintain 1-hour fire rating (CRC R302.1) |
 | Electrical tape | Black, red, white | 1 each | |
 | Wire labels / markers | | 1 pack | Label circuits in panel |
 | Torque screwdriver or wrench | Inch-pound rated | 1 | Breaker and lug terminations have specified torque values. Inspectors may check. |
@@ -137,11 +140,14 @@ All boxes are **new-work nail-on** type — mount to studs during rough-in with 
 
 | Run | Wire | Est. Length |
 |-----|------|-------------|
-| Main panel → subpanel (feeder) | 1 AWG copper × 4 conductors | ~15 ft each |
-| Subpanel → EV charger (NEMA 14-50) | 6/3 NM-B | ~15-25 ft |
-| Subpanel → dryer outlet | 10/3 NM-B | ~15-25 ft |
-| Subpanel → washer outlet | 12/2 NM-B | ~15-25 ft |
-| Subpanel → workshop/general outlets | 12/2 NM-B | ~25 ft × 3 circuits |
-| HVAC condenser | Reuse existing wire | — |
+| Main panel → subpanel (feeder) | 2/0 AL SER | ~20 ft | **INSTALLED** |
+| Subpanel → EV charger (NEMA 14-50) | 6/3 NM-B | ~25 ft | **INSTALLED** |
+| Subpanel → dryer outlet (NEMA 14-30) | 10/3 NM-B | ~15-25 ft | |
+| Subpanel → washer outlet (dedicated) | 12/2 NM-B | ~15-25 ft | |
+| Subpanel → laundry general / dryer (120V) | 12/2 NM-B | ~15-25 ft | |
+| Subpanel → general/garage door outlets | 12/2 NM-B | ~25 ft | |
+| Subpanel → workshop 1 outlets | 12/2 NM-B | ~25 ft | |
+| Subpanel → workshop 2 outlets | 12/2 NM-B | ~25 ft | |
+| HVAC condenser | Reuse existing wire | — | |
 
 **Note:** Measure actual runs before buying. Add 10-15% for routing around obstacles and termination slack. Wire is sold by the foot at most home improvement stores — buy what you need, don't overbuy the heavy gauge stuff.
