@@ -15,6 +15,7 @@ This repo serves two goals:
 - Homeowner can legally perform all electrical work including subpanel (see `decisions/` for sourcing)
 - All electrical and plumbing rough-in must pass inspection before drywall closes walls
 - Gray water systems have jurisdiction-specific rules (CA CPC Chapter 15)
+- **NEVER put the street address, block/lot, zip code, or other identifying property info in tracked files.** This is a public repo. All personal/property info belongs in `private/` (gitignored) only. Use "San Francisco, CA" or zoning designation when referencing the property in committed files.
 
 ## Traceability Requirement
 
