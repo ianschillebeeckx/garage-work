@@ -4,9 +4,9 @@ Project management and technical reference for a garage renovation on the east w
 
 ## Goals
 
-1. **Use AI to help me do electrical work in my garage** (and pass inspection)
+1. **Use AI to help me do electrical, plumbing, and carpentry work in my garage** (and pass inspection)
 2. **Practice building and validating RAG** with new technologies
-3. **Test Claude Code's agentic loop** — CLI interaction, skills, and tool calling
+3. **Test Claude Code's agentic loop** — CLI interaction, skills, .md context memory, and tool calling
 
 The main interface is the terminal via [Claude Code](https://claude.ai/code) — all research, planning, code lookups, and project tracking happen through the agentic loop.
 
@@ -73,6 +73,6 @@ python3 nec_vectordb/test_extraction.py          # PDF text extraction spot chec
 ## Jurisdiction
 
 - **City:** San Francisco, CA
-- **Property:** Block 3005 / Lot 006, RH-1(D) zoning
+- **Zoning:** RH-1(D) — Residential House, One Family, Detached
 - **Permits through:** SF Department of Building Inspection (DBI), 49 South Van Ness Ave
 - **Code basis:** California Electrical Code (CEC), California Residential Code (CRC), based on NEC/IRC with state amendments
