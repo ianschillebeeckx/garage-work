@@ -2,9 +2,10 @@
 
 Project management and technical reference for a garage renovation on the east wall of a residential home in San Francisco.
 
-## What This Is
+## Goals
 
-This repo tracks everything involved in renovating one wall of a residential garage: electrical subpanel installation, EV charging, laundry, plumbing, permitting, code research, and material planning. It also serves as a learning platform for working with Claude Code, RAG pipelines, and agentic tooling.
+1. **Use AI to help me do electrical work in my garage** (and pass inspection)
+2. **Practice building and validating RAG** with new technologies
 
 ## Project Scope
 
