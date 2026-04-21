@@ -6,6 +6,7 @@ Project management and technical reference for a garage renovation on the east w
 
 1. **Use AI to help me do electrical work in my garage** (and pass inspection)
 2. **Practice building and validating RAG** with new technologies
+3. **Test Claude Code's agentic loop** — CLI interaction, skills, and tool calling
 
 The main interface is the terminal via [Claude Code](https://claude.ai/code) — all research, planning, code lookups, and project tracking happen through the agentic loop.
 
